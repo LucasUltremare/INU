@@ -260,9 +260,10 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     padding-block-end:150px ;
 }
 .conteudo3{
-    display: flex;  
+    display: flex; 
     flex-wrap: wrap;
-    gap: 53px;
+    flex-direction: row;
+    gap: 30px;
 }
 .conteudos3Boxs{
     border: solid 1px black;
@@ -288,7 +289,7 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     padding-block-end: 15px;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 .conteudo3Botao:hover{
     background-color: black;
@@ -305,4 +306,17 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(70, 70, 70);
     padding-block-end:30px ;
+}
+
+/* 4 conteudo */
+
+.quartoConteudo{
+    background-image:  url(https://irp.cdn-website.com/md/pexels/dms3rep/multi/mobile/pexels-photo-114979.jpeg );
+    background-repeat: no-repeat;
+    background-size: 2000px 750px;
+    
+    
+    
+    
+   
 }
