@@ -28,6 +28,8 @@ body::-webkit-scrollbar-thumb{
     top: 0;
     left: 0;
     width: 100%;
+    min-width: 90%;
+    max-width: 125%;
     z-index: 10;
   
 }
