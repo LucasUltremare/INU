@@ -257,12 +257,12 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
 
 .terceiroConteudo{
     
-    padding: 7%;
+    padding: 10%;
     padding-left: 12%;
     padding-right: 10%;
-    width: 100%;
+    width: 1500px;
     max-width: 110%;
-    min-width: 100%;
+    min-width: 90%;
     padding-block-end:150px ;
 }
 .conteudo3{
