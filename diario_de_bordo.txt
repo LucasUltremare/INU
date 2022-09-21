@@ -1,0 +1,35 @@
+4 meses atrás - a ideia era produzir uma plataforma da qual gerasse um mercado de NFT via blockchain em um jogo.
+
+
+______________________________________________________________________________________________________
+Dia 31/08/2022
+
+Luiz - trouxe críticas a estrutura e forma de desenvolvimento do projeto.
+
+	O Grupo entrou em um acordo, de iniciarmos o desenvolvimento de uma plataforma de estudos interativos, com interação entre professores, formados (Detentores de metodologias pedagoga) e intusiastas e estudantes, desde alunos do ensino médio, até vestibulandos. Contando que o usuário pudesse aprimorar seu perfil e seus conhecimentos em diferentes áreas, com cursos providenciados através da própria plataforma.
+
+-NOME>
+
+?INU?
+
+interaction
+National
+Underground
+
+______________________________________________________________________________________________________
+Dia 05/09/2022
+
+ Dividimos o grupo em 2 separando as funções de arquitetura de monitoramento de funções, entregando ao Ultremare e Luiz para que iniciassem a montagem da estrutura de desenvolvimento do grupo.
+ Exemplo: Lucas e Daniel
+
+Iniciará com o modelo de tabela de Níveis do site.
+
+Ultremare e Luiz, começará o Layout do Index/Home Page 
+
+- Pontos a se levar em consideração
+
+** Design
+
+	Pela a ideia inicial ser com o Tema Underground mantendo a possibilidade de criações de grupos de estudos desde e 2 pessoas a um Número máximo bem além.
+
+- descrições detalhadas nas maiorias dos Objects

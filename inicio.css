@@ -254,16 +254,21 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
 /* conteudo 3 */
 
 .terceiroConteudo{
-    padding: 60px;
-    padding-left: 180px;
-    padding-right: 180px;
+    
+    padding: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 110%;
+    max-width: 110%;
+    min-width: 100%;
+    
     padding-block-end:150px ;
 }
 .conteudo3{
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
 }
 .conteudos3Boxs{
     border: solid 1px black;
