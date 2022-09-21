@@ -256,12 +256,11 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
 .terceiroConteudo{
     
     padding: 7%;
-    padding-left: 10%;
+    padding-left: 12%;
     padding-right: 10%;
-    width: 110%;
+    width: 100%;
     max-width: 110%;
     min-width: 100%;
-    
     padding-block-end:150px ;
 }
 .conteudo3{
@@ -277,6 +276,8 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     padding-right: 15px;
     padding-top: 40px;
     padding-block-end: 40px;
+    width: 31%;
+    max-width: 100%;
     
 }
 .conteudo3Botoes{
@@ -294,7 +295,9 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     padding-block-end: 15px;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 70%;
+    width: 100%;
+    min-width: 10%;
 }
 .conteudo3Botao:hover{
     background-color: black;
