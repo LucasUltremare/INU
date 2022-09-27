@@ -104,9 +104,11 @@ a.cabecalhoMenuItem:hover,a.cabecalhoMenuItem:active{
     padding: 10px;
     border-color:aliceblue;
     border-radius: 40px;
+    font-size: 15px;
 }
 a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     border-color: rgb(255, 196, 0);
+    transition: all 0.3s ease-in-out;
 }
 
 /* main */
@@ -152,14 +154,15 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     background-color: white;
     padding-left: 70px;
     padding-right: 70px;
-    padding-block-end: 12px;
-    padding-top: 12px; 
+    padding-block-end: 13px;
+    padding-top: 13px; 
     font-family: Arial, Helvetica, sans-serif; 
 }
 .conteudo1Botao1:hover{
     background-color: black;
     color: white;
     border-color: rgb(0, 0, 236);
+    transition: all 0.3s ease-in-out;
 }
 .conteudo1Botao2{
     margin-top: 200px;
@@ -170,29 +173,30 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     background-color: rgb(119, 81, 235);
     padding-left: 80px;
     padding-right: 80px;
-    padding-block-end: 12px;
-    padding-top: 12px; 
+    padding-block-end: 13px;
+    padding-top: 13px; 
     font-family: Arial, Helvetica, sans-serif;   
 }
 .conteudo1Botao2:hover{
     background-color: black;
     color: white;
     border-color: rgb(0, 0, 236);
+    transition: all 0.3s ease-in-out;
 }
 
-.conteudoImagem1{
+#conteudoImagem1{
     position: absolute;
     right:100px;
     top:360px;
     z-index: 1;
 }
-.conteudoImagem2{
+#conteudoImagem2{
     position: absolute;
     right: 250px;
     top: 120px;
     z-index: 0;
 }
-.conteudoImagem3{
+#conteudoImagem3{
     position: absolute;
     right: 650px;
     top: 360px;
@@ -210,12 +214,12 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     align-items: center;
     justify-content: space-around;
 }
-.conteudo2Texto{
+#conteudo2Texto{
     font-family:'Bevan', cursive;
     font-size:40px;
     font-weight:100;
 }
-.conteudo2Botoes{
+#conteudo2Botoes{
     display: flex;
     gap: 30px;
 }
@@ -234,6 +238,8 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
 .conteudo2Botao1:hover{
     background-color: black;
     color: white;
+    transition: all 0.3s ease-in-out;
+    
 }
 .conteudo2Botao2{
     border: solid 1px;
@@ -251,6 +257,7 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     background-color: white;
     color: black;
     border-color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 /* conteudo 3 */
@@ -302,6 +309,8 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
 .conteudo3Botao:hover{
     background-color: black;
     color: white;
+    transition: all 0.3s ease-in-out;
+    transform: scale(95%);
 }
 .conteudo3Titulos{
     font-family:'Bevan', cursive;
@@ -327,4 +336,34 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     
     
    
+}
+
+
+
+
+
+
+
+
+/* ANIMAÇOES */
+
+.esquerda{
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.direita{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.baixo{
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.efeitoScroll{
+    transform: translate(0,0) !important;
+    opacity: 1 !important;
+    transition: all 1.5s ease-in-out;
 }
