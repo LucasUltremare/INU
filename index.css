@@ -330,17 +330,180 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
 .quartoConteudo{
     background-image:  url(https://irp.cdn-website.com/md/pexels/dms3rep/multi/mobile/pexels-photo-114979.jpeg );
     background-repeat: no-repeat;
-    background-size: 2000px 750px;
+    background-size: 2000px 700px;
+    padding: 10%;
+    display: flex;
     
-    
-    
-    
-   
 }
 
+.conteudo4Imagem1{
+    width: 100px;
+    margin-block-end: 7%;
+}
+.conteudo4Titulo{
+    font-family:'Bevan', cursive;
+    font-size:35px;
+    font-weight:1;
+    color: white;
+    margin-block-end: 2%;
+}
+.conteudo4SubTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 1;
+    font-size: 17px;
+    margin-block-end: 7%;
+}
+.conteudo4Conteudo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    font-size: 15px;
+    margin-block-end: 15%;
+}
+.conteudo4Botao{
+    color: white;
+    border: solid 1px;
+    border-color:white;
+    border-radius: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-block-end: 15px;
+    padding-top: 15px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    
+}
+.conteudo4Botao:hover{
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.conteudo4Imagem2{
+    width: 350px;
+    position: absolute;
+    left:300px;
+    
+}
 
+/* 5 conteudo */
 
+.quintoConteudo{
+    background-image: url("https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/mobile/grid_purple.svg");
+    background-position: center;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;   
+}
 
+.conteudo5{
+    padding-top: 10%;
+    padding-block-end:10%;
+}
+.conteudo5Titulo{
+    font-family: 'Bevan', cursive;
+    font-weight: 1;
+    font-size: 30px;
+    margin-block-end: 20%;
+}
+.conteudo5Subtiulos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.conteudo5Box{
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    margin-block-end: 15%;
+    padding-right: 48%;
+    padding-top: 5%;
+}
+.conteudo5Box2{
+    background-color: transparent;
+    padding-right: 80%;
+    margin-top: 5%;
+    margin-block-end: 10%;
+    border-radius: 5px;
+}
+.conteudo5Botao{
+    text-align: center;
+    margin-left: 40px;
+}
+.conteudo5Enviar{
+    border: 0;
+    border-radius: 40px;
+    padding-right: 50px ;
+    padding-left: 50px ;
+    padding-top: 20px ;
+    padding-block-end: 20px ;
+    background-color: rgb(119, 81, 235);
+    color: white;
+}
+.conteudo5Enviar:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+/* footer */
+
+.rodaPe{
+    background-color: black;
+}
+.conteudoRodaPe{
+    padding: 7%;
+    padding-left:15%;
+    padding-right: 15%;
+}
+.itemsRodaPe{
+    border-block-end: 2px solid white;
+}
+.opcaoRodaPe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block-end: 10%;
+}
+.tituloItems{
+    list-style: none;
+    color: white;
+    font-family: 'Bevan', cursive;
+    font-weight: 1;
+    font-size: 15px;
+}
+.boxFooter{
+    margin-top: 11%;
+    padding-left:5% ;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    border-color: white;
+    margin-block-end: 15%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.enviarFooter{
+    border: 0;
+    border-radius: 40px;
+    padding-right: 100px ;
+    padding-left: 90px ;
+    padding-top: 15px ;
+    padding-block-end: 15px ;
+    background-color: rgb(119, 81, 235);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.direitos{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    color: white;
+}
 
 
 
