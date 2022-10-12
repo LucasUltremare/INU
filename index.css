@@ -498,6 +498,11 @@ a.cabecalhoMenuBotao:hover,a.cabecalhoMenuBotao:active{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.enviarFooter:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
 .direitos{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
