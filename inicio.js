@@ -1,7 +1,7 @@
 window.addEventListener("scroll",()=>{
 
     document.querySelectorAll(".esquerda").forEach(
-        (animacao, index ) => {
+        (animacao, inicio ) => {
          if(animacao.getBoundingClientRect().top <
         window.innerHeight - 50){
             animacao.classList.add("efeitoScroll")
@@ -9,7 +9,7 @@ window.addEventListener("scroll",()=>{
     })
 
     document.querySelectorAll(".direita").forEach(
-        (animacao, index ) => {
+        (animacao, inicio ) => {
          if(animacao.getBoundingClientRect().top <
         window.innerHeight - 50){
             animacao.classList.add("efeitoScroll")
@@ -17,7 +17,7 @@ window.addEventListener("scroll",()=>{
     })
 
     document.querySelectorAll(".baixo").forEach(
-        (animacao, index ) => {
+        (animacao, inicio ) => {
          if(animacao.getBoundingClientRect().top <
         window.innerHeight - 50){
             animacao.classList.add("efeitoScroll")
