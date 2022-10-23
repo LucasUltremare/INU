@@ -25,8 +25,8 @@
     <main class="tudo">
         <form class="login" action="testelogin.php" method="POST">
             <h1 class="titulo">Faça seu login</h1>
-            <input type="email" name="email" placeholder="E-mail" class="boxs"><br>
-            <input type="password" name="senha" placeholder="Senha" class="boxs"><br>
+            <input type="email" name="email" required placeholder="E-mail" class="boxs"><br>
+            <input type="password" name="senha" required placeholder="Senha" class="boxs"><br>
             <input type="submit" value="LOGAR" name="submit" class="logar">
         </form>
     </main>

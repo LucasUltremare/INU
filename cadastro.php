@@ -42,9 +42,9 @@
     <main class="tudo">
         <form class="login" action="login.php" method="POST">
             <h1 class="titulo">Faça seu Cadastro</h1>
-            <input type="text" name="nome" placeholder="Nome" class="boxs"><br>
-            <input type="email" name="email" placeholder="E-mail" class="boxs"><br>
-            <input type="password" name="senha" placeholder="Senha" class="boxs"><br>      
+            <input type="text" name="nome" required placeholder="Nome" class="boxs"><br>
+            <input type="email" name="email" required placeholder="E-mail" class="boxs"><br>
+            <input type="password" name="senha" required placeholder="Senha" class="boxs"><br>      
             <input type="submit" name="submit"value="CADASTRAR" class="logar">
         </form>
     </main>

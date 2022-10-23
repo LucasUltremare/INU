@@ -34,7 +34,7 @@ session_start();
             <ul>
             
             <li>
-                <a class="cabecalhoMenuItem" href="">Cursos </a>
+                <a class="cabecalhoMenuItem" href="cursos.php">Cursos </a>
                 <ul>
                 <li><a href=""> Portugues</a></li>
                 <li><a href=""> Matematica</a></li>
@@ -193,8 +193,8 @@ session_start();
         <div class="conteudoRodaPe">
             <nav class="itemsRodaPe">
                 <ul class="opcaoRodaPe">
-                    <li class="tituloItems" ><a class="tituloItems" href=""> Cursos </a></li>
-                    <li class="tituloItems"><a class="tituloItems" href=""> Cursos </a></li>
+                    <li class="tituloItems" ><a class="tituloItems" href="cursos.php"> Cursos </a></li>
+                    <li class="tituloItems"><a class="tituloItems" href="cursos.php"> Cursos </a></li>
                     <li>
                         <ul class="tituloItems"><a class="tituloItems" href=""> Sobre </a></ul>
                         <ul class="tituloItems"><a class="tituloItems" href=""> Contato </a></ul>
