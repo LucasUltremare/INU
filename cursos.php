@@ -50,7 +50,27 @@
 
 
     <main class="tudo">
-         
+        
+     
+        <section class="primeiroConteudo">
+           
+           <div class="conteudo1">
+               <h1 class="conteudo1Texto1">Comece a aprender<br> agora mesmo</h1>
+               <h3 class="conteudo1Texto2">Quer que seu futuro comece agora? <br> Temos as ferramentas para fazer isso acontecer.<br> Habilidades reais para empregos reais.</h3>
+               <div class="conteudoSpace">
+                   <a  class="conteudo1Botao1" href="">Veja todos os cursos</a><br><br><br>
+                   <a  class="conteudo1Botao2" href="">Grupo de estudos</a>
+               </div>
+           </div>
+           <div class="conteudoImagens">
+           <img id="conteudoImagem1" width="200px" src="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/circles.png" alt="" id="1511404975" class="" data-dm-image-path="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/circles.png"/>
+           <img id="conteudoImagem2" width="350px" src="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/man_studying.png" alt="" id="1409312964" class="" data-dm-image-path="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/man_studying.png"/>
+           <img id="conteudoImagem3"src="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/icon.svg" alt="" id="1851915875" class="" data-dm-image-path="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/icon.svg"/>
+       </div>
+   </div>
+       </section>
+
+
     </main>
 
 
