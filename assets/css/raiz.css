@@ -1,0 +1,14 @@
+.titulotext{
+    background-color:#4c0c4e;
+    font-family: sans-serif;
+    font-size: 75%;
+    color: #ffffff;
+}
+.item {
+    background-color: #b30f8a;
+    border: 1px solid #4c0c4e;
+    color: #FFF;
+    font-style: sans-serif;
+    padding: 3px;
+    text-decoration: none;
+}
