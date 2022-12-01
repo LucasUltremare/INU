@@ -1,98 +1,209 @@
-<?php
-    include_once('config.php');
-
-    $sql = "SELECT * FROM cursos ORDER BY id_curso DESC";
-
-    $result = $conexao->query($sql);
-
-    
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
-    <link rel="stylesheet" href="curso.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
-    <link rel="icon" type="imagem/png" href="favicon.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com">
+
+  <title>INU - Institute National Underground</title>
+
+  <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="assets/css/bootstraps.css">
+
+  <link rel="stylesheet" href="assets/css/maicons.css">
+
+  <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="assets/css/theme.css">
+
 </head>
 <body>
-<header class="cabecalho">
-        <!-- Barra de navegação -->
-        <nav class="cabecalhoMenu">
-            <!-- Imagem do site -->
-           <a href="inicio.php"> <img class="cabecalhoImage" width="120px" src="INU.gif"></a>
-            <!-- Opções de escolha -->
-            <ul>
-            
-            <li>
-                <a class="cabecalhoMenuItem" href="">Cursos </a>
-                <ul>
-                <li><a href=""> Portugues</a></li>
-                <li><a href=""> Matematica</a></li>
-                <li><a href=""> Ingles</a></li>
-                <li><a href=""> Programação</a></li>
-                </ul>
+
+  <!-- Back to top button -->
+  <div class="back-to-top"></div>
+
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-float">
+      <div class="container">
+        <a href="index.html" ><img class="" width="120px" src="assets/img/INU.gif"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+          <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+          <li class="nav-item ">
+              <a href="index.php" class="nav-link">inicio</a>
             </li>
-            <li><a class="cabecalhoMenuItem"href="">Grupos</a></li>
-            <li><a class="cabecalhoMenuItem"href="">Sobre</a></li>
-            <li><a class="cabecalhoMenuItem"href="">Contato</a></li>
-            </ul>
-            <!-- Botão para entrar na salas de estudo -->
-            <a class="cabecalhoMenuBotao"href="sair.php">Sair</a>
-        </nav>
-    </header>
+            <li class="nav-item active">
+              <a href="cursos.php" class="nav-link">Cursos</a>
+            </li>
+          </ul>
 
-
-
-    <main class="tudo">
-        
-     
-        <section class="primeiroConteudo">
-           
-           <div class="conteudo1">
-               <h1 class="conteudo1Texto1">Comece a aprender<br> agora mesmo</h1>
-               <h3 class="conteudo1Texto2">Quer que seu futuro comece agora? <br> Temos as ferramentas para fazer isso acontecer.<br> Habilidades reais para empregos reais.</h3>
-               <div class="conteudoSpace">
-                   <a  class="conteudo1Botao1" href="">Veja todos os cursos</a><br><br><br>
-                   <a  class="conteudo1Botao2" href="">Grupo de estudos</a>
-               </div>
-           </div>
-           <div class="conteudoImagens">
-           <img id="conteudoImagem1" width="200px" src="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/circles.png" alt="" id="1511404975" class="" data-dm-image-path="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/circles.png"/>
-           <img id="conteudoImagem2" width="350px" src="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/man_studying.png" alt="" id="1409312964" class="" data-dm-image-path="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/man_studying.png"/>
-           <img id="conteudoImagem3"src="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/icon.svg" alt="" id="1851915875" class="" data-dm-image-path="https://irt-cdn.multiscreensite.com/7bb0dc3ec12b401487d1ac549ee08159/dms3rep/multi/icon.svg"/>
-       </div>
-   </div>
-       </section>
-
-
-    </main>
-
-
-
-    <footer class="rodaPe">
-        <div class="conteudoRodaPe">
-            <nav class="itemsRodaPe">
-                <ul class="opcaoRodaPe">
-                    <li class="tituloItems" ><a class="tituloItems" href=""> Cursos </a></li>
-                    <li class="tituloItems"><a class="tituloItems" href=""> Cursos </a></li>
-                    <li>
-                        <ul class="tituloItems"><a class="tituloItems" href=""> Sobre </a></ul>
-                        <ul class="tituloItems"><a class="tituloItems" href=""> Contato </a></ul>
-                    </li>
-                    <li class="tituloItems">Fique por dentro das <br> novidade do INU<br>
-                    <input class="boxFooter" type="text"  placeholder="E-mail">    <br>
-                    <input class="enviarFooter" type="submit" value="ENVIAR">
-                    </li>
-                </ul>
-            </nav>
-            <p class="direitos"> © 2022 Todos os direitos reservados | INU</p>
+          <div class="ml-auto">
+            <a href="login.php" class="btn btn-outline rounded-pill">Usuario</a>
+          </div>
         </div>
-    </footer>
+      </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>  
+
+    <div class="container mt-5">
+      <div class="page-banner">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-md-6">
+            <nav aria-label="Breadcrumb">
+              <ul class="breadcrumb justify-content-center py-0 bg-transparent">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item active">Cursos</li>
+              </ul>
+            </nav>
+            <h1 class="text-center">Cursos</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="../assets/img/person/person_1.jpg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Augusto </div>
+                  <a href="#" class="post-date">23 Apr 2020</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="blog-single.html">Matematica</a></div>
+                <div class="post-excerpt">A trigonometria é a parte da matemática que estuda as relações existentes entre os lados e os ângulos dos triângulos. Ela é utilizada também em outras áreas de estudo como física, química, biologia, geografia, astronomia, medicina, engenharia, etc. Funções Trigonométricas As funções...</div>
+              </div>
+              <div class="footer">
+                <a href="https://www.todamateria.com.br/trigonometria/">Ler Mais <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="../assets/img/person/person_2.jpg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Claudia</div>
+                  <a href="#" class="post-date">23 Apr 2020</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="blog-single.html">Português</a></div>
+                <div class="post-excerpt">Ponto, dois-pontos e travessão são exemplos de sinais de pontuação que utilizamos. A pontuação recupera recursos específicos da língua falada, como entonação e pausas.</div>
+              </div>
+              <div class="footer">
+                <a href="https://www.portugues.com.br/gramatica/pontuacao-.html">Ler Mais <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="../assets/img/person/person_3.jpg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Neia</div>
+                  <a href="#" class="post-date">23 Apr 2020</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="blog-single.html">Biologia</a></div>
+                <div class="post-excerpt">O que é Embriologia?
+A embriologia é uma área da biologia que estuda o desenvolvimento embrionário dos organismos vivos, ou seja, o processo de formação do embrião a partir de uma única célula, o zigoto, que originará um novo ser vivo. O que a Embriologia Estuda? A Embriologia estuda todas as fases do...</div>
+              </div>
+              <div class="footer">
+                <a href="https://www.todamateria.com.br/o-que-e-embriologia/">Ler Mais<span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="../assets/img/person/person_1.jpg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Valcir</div>
+                  <a href="#" class="post-date">23 Apr 2020</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="blog-single.html">Fisica</a></div>
+                <div class="post-excerpt">A Física Nuclear é um dos mais importantes ramos da Física. Por meio dos estudos feitos por essa área, um enorme percentual de toda a energia elétrica utilizada na Terra é produzido. Além disso, diversas evoluções nas áreas da medicina e da indústria foram possíveis graças ao estudo das propriedades nucleares.</div>
+              </div>
+              <div class="footer">
+                <a href="https://brasilescola.uol.com.br/fisica/fisica-nuclear.htm">Ler Mais <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col-12 mt-5">
+            
+          </div>
+
+        </div>
+  
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        
+        
+        
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 py-2">
+          <p id="copyright">&copy; 2020 <a href="">INU - Institute National Underground</a>. Todos os direitos reservados</p>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </footer> <!-- .page-footer -->
+
+
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/vendor/wow/wow.min.js"></script>
+
+  <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="assets/js/google-maps.js"></script>
+
+  <script src="assets/js/theme.js"></script>
+
+
 </body>
 </html>

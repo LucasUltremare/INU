@@ -1,33 +1,5 @@
 <?php
 session_start();
-include('admin/includes/config.php');
-if(strlen($_SESSION['alogin'])==0)
-    {   
-header('location:index.php');
-}
-else{
-
-if(isset($_POST['submit']))
-{
-$studentname=$_POST['studentname'];
-$studentregno=$_POST['studentregno'];
-$password=md5($_POST['password']);
-$pincode = rand(100000,999999);
-$ret=mysqli_query($bd, "insert into students(studentName,StudentRegno,password,pincode) values('$studentname','$studentregno','$password','$pincode')");
-if($ret)
-{
-$_SESSION['msg']="Student Registered Successfully !!";
-}
-else
-{
-  $_SESSION['msg']="Error : Student  not Register";
-}
-}
-
-?>
-
-<?php
-
 error_reporting(1);
 include("includes/config.php");
 if(isset($_POST['submit']))
@@ -62,8 +34,6 @@ exit();
 }
 ?>
 
-<?php } ?>
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -94,7 +64,9 @@ exit();
       </div>
     </div>
     
+
     <div class="user_options-forms" id="user_options-forms">
+
       <div class="user_forms-login">
         <h2 class="forms_title">Login</h2>
         <form name="admin" method="post">
@@ -148,6 +120,3 @@ exit();
 
 </body>
 </html>
-
-
-
